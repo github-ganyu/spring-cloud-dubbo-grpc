@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: dubbo-grpc-provider
+
+server:
+  port: 6789
+
+dubbo:
+  protocol:
+    #    id: dubbo
+    id: grpc
+    name: grpc
+  #    port: -1
+  cloud:
+    subscribed-services: ""
+  #  registry:
+  #    address: spring-cloud://localhost
+  #  scan:
+  #    base-packages: org.example.service.impl
+  protocols:
+    dubbo:
+      #      id: dubbo
+      name: dubbo
+      port: -1
+    grpc:
+      #      id: grpc
+      name: grpc
+      port: -1
+  consumer:
+    check: false
