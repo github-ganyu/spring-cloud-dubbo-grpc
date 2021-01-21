@@ -3,7 +3,7 @@ spring:
     name: dubbo-grpc-provider
 
 server:
-  port: 6789
+  port: 6799
 
 dubbo:
   protocol:

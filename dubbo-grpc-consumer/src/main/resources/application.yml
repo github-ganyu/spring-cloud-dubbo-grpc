@@ -3,7 +3,7 @@ spring:
     name: dubbo-grpc-consumer
 
 server:
-  port: 9876
+  port: 9886
 
 
 dubbo:
